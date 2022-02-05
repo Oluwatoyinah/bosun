@@ -1,0 +1,21 @@
+.contact {
+    min-height: 50vh;
+    background-color: $bgcolor;
+    color: white;
+    padding:  20px 0;
+    h1 {
+        font-family: $curly;
+        font-weight: 900;
+        font-size: 8vw;
+        text-align: right;
+    }
+
+    input[type=text] , textarea{
+        font-size: 13px;
+        padding: 10px;
+        border: 1px solid #FFF;
+        color: #FFF; 
+        background-color: transparent;
+    
+    }
+}

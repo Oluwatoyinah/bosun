@@ -1,0 +1,189 @@
+.about {
+  min-height: 50vh;
+  background-color: #00000a;
+  color: white;
+  padding: 20px 0;
+}
+.about h1 {
+  font-family: "Ink Free";
+  font-weight: 900;
+  font-size: 8vw;
+}
+
+.experience {
+  min-height: 50vh;
+  background-color: #00000a;
+  color: white;
+  padding: 20px 0;
+}
+.experience h1 {
+  font-family: "Ink Free";
+  font-weight: 900;
+  font-size: 8vw;
+  text-align: right;
+}
+.experience .first {
+  position: relative;
+  background-color: rgba(48, 48, 68, 0.3);
+}
+.experience .first::after {
+  content: "";
+  position: absolute;
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 0;
+  left: -11px;
+}
+.experience .first::before {
+  content: "";
+  position: absolute;
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  bottom: 0;
+  left: -11px;
+}
+.experience .work {
+  position: relative;
+}
+.experience .work::after {
+  content: "";
+  position: absolute;
+  background-color: white;
+  width: 2px;
+  height: 100%;
+  top: 0%;
+  left: -18px;
+}
+.experience .work::before {
+  content: "";
+  position: absolute;
+  background-color: white;
+  width: 7px;
+  height: 2px;
+  top: 20%;
+  left: -18px;
+}
+
+.education {
+  min-height: 20vh;
+  background-color: #00000a;
+  color: white;
+  padding: 20px 0;
+}
+.education h1 {
+  font-family: "Ink Free";
+  font-weight: 900;
+  font-size: 8vw;
+}
+.education .first {
+  position: relative;
+  background-color: rgba(48, 48, 68, 0.4);
+}
+.education .first::after {
+  content: "";
+  position: absolute;
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 0;
+  left: -11px;
+}
+.education .first::before {
+  content: "";
+  position: absolute;
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  bottom: 0;
+  left: -11px;
+}
+.education .work {
+  position: relative;
+}
+.education .work::after {
+  content: "";
+  position: absolute;
+  background-color: white;
+  width: 2px;
+  height: 100%;
+  top: 0%;
+  left: -18px;
+}
+.education .work::before {
+  content: "";
+  position: absolute;
+  background-color: white;
+  width: 7px;
+  height: 2px;
+  top: 50%;
+  left: -18px;
+}
+
+.tools {
+  min-height: 50vh;
+  background-color: #00000a;
+  color: white;
+  padding: 20px 0;
+}
+.tools h1 {
+  font-family: "Ink Free";
+  font-weight: 900;
+  font-size: 8vw;
+  text-align: right;
+}
+
+.project {
+  min-height: 50vh;
+  background-color: #00000a;
+  color: white;
+  padding: 20px 0;
+}
+.project h1 {
+  font-family: "Ink Free";
+  font-weight: 900;
+  font-size: 8vw;
+}
+
+.contact {
+  min-height: 50vh;
+  background-color: #00000a;
+  color: white;
+  padding: 20px 0;
+}
+.contact h1 {
+  font-family: "Ink Free";
+  font-weight: 900;
+  font-size: 8vw;
+  text-align: right;
+}
+.contact input[type=text], .contact textarea {
+  font-size: 13px;
+  padding: 10px;
+  border: 1px solid #FFF;
+  color: #FFF;
+  background-color: transparent;
+}
+
+.top {
+  background-color: #2679d5;
+  min-height: 5px;
+}
+
+.summary {
+  background-color: #2679d5;
+  color: white;
+  padding: 10px 5px;
+  display: grid;
+  place-content: center;
+  min-height: 10vh;
+}
+
+.btn {
+  padding: 5px 10px;
+}/*# sourceMappingURL=style.css.map */

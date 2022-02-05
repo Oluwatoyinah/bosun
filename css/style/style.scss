@@ -1,0 +1,32 @@
+@import './variables';
+@import './about';
+@import './experience';
+@import './education';
+@import './tools';
+@import './project';
+@import './contact';
+
+
+.top {
+    background-color: #2679d5;
+    min-height: 5px;
+}
+
+
+
+.summary {
+    background-color: #2679d5;
+    color: white;
+    padding: 10px 5px;
+    display: grid;
+    place-content: center;
+    min-height: 10vh;
+}
+
+
+.btn {
+    padding: 5px 10px;
+}
+
+
+
