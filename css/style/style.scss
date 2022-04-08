@@ -6,7 +6,7 @@
 @import './tools';
 @import './project';
 @import './contact';
-@import './scroll';
+// @import './scroll';
                 
 
 .top {
@@ -14,9 +14,6 @@
     min-height: 5px;
 }
 
-.tx-title {
-    font-family: 'Allura', cursive;                                           
-}
 
 section {
     overflow: hidden;

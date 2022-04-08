@@ -6,9 +6,9 @@
   padding: 20px 0;
 }
 .about h1 {
-  font-family: "Allura", cursive;
+  font-family: "Qwitcher Grypen", cursive;
   font-weight: 900;
-  font-size: 8vw;
+  font-size: 12vw;
 }
 
 .experience {
@@ -18,9 +18,9 @@
   padding: 20px 0;
 }
 .experience h1 {
-  font-family: "Allura", cursive;
+  font-family: "Qwitcher Grypen", cursive;
   font-weight: 900;
-  font-size: 8vw;
+  font-size: 12vw;
   text-align: right;
 }
 .experience .first {
@@ -77,9 +77,9 @@
   padding: 20px 0;
 }
 .education h1 {
-  font-family: "Allura", cursive;
+  font-family: "Qwitcher Grypen", cursive;
   font-weight: 900;
-  font-size: 8vw;
+  font-size: 12vw;
 }
 .education .first {
   position: relative;
@@ -134,9 +134,9 @@
   padding: 20px 0;
 }
 .tools h1 {
-  font-family: "Allura", cursive;
+  font-family: "Qwitcher Grypen", cursive;
   font-weight: 900;
-  font-size: 8vw;
+  font-size: 12vw;
   text-align: right;
 }
 
@@ -147,9 +147,9 @@
   padding: 20px 0;
 }
 .project h1 {
-  font-family: "Allura", cursive;
+  font-family: "Qwitcher Grypen", cursive;
   font-weight: 900;
-  font-size: 8vw;
+  font-size: 12vw;
 }
 
 .contact {
@@ -159,9 +159,9 @@
   padding: 20px 0;
 }
 .contact h1 {
-  font-family: "Allura", cursive;
+  font-family: "Qwitcher Grypen", cursive;
   font-weight: 900;
-  font-size: 8vw;
+  font-size: 12vw;
   text-align: right;
 }
 .contact input[type=text], .contact textarea {
@@ -172,62 +172,9 @@
   background-color: transparent;
 }
 
-/*SCROLL EFFECT*/
-.reveal {
-  position: relative;
-  transform: scale(2, 2);
-  opacity: 0;
-  transition: all 1s ease-in-out;
-}
-
-.reveal.active {
-  transform: scale(1, 1);
-  opacity: 1;
-}
-
-.pop {
-  position: relative;
-  transform: translateX(-80px);
-  opacity: 0;
-  transition: all 1s ease-in-out;
-}
-
-.pop.active {
-  transform: translateX(0px);
-  opacity: 1;
-}
-
-.right {
-  position: relative;
-  transform: translateX(20px);
-  opacity: 0;
-  transition: all 1s ease-in-out;
-}
-
-.right.active {
-  transform: translateX(0px);
-  opacity: 1;
-}
-
-.down {
-  position: relative;
-  transform: translateY(-80px);
-  opacity: 0;
-  transition: all 1s ease-in-out;
-}
-
-.down.active {
-  transform: translateY(0px);
-  opacity: 1;
-}
-
 .top {
   background-color: #2679d5;
   min-height: 5px;
-}
-
-.tx-title {
-  font-family: "Allura", cursive;
 }
 
 section {
