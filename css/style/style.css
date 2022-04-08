@@ -1,3 +1,4 @@
+@import url("http://fonts.cdnfonts.com/css/ink-free");
 .about {
   min-height: 50vh;
   background-color: #00000a;
@@ -25,6 +26,7 @@
 .experience .first {
   position: relative;
   background-color: rgba(48, 48, 68, 0.3);
+  background-attachment: fixed;
 }
 .experience .first::after {
   content: "";
@@ -33,7 +35,7 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  top: 0;
+  top: -3%;
   left: -11px;
 }
 .experience .first::before {
@@ -43,7 +45,7 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  bottom: 0;
+  bottom: -5%;
   left: -11px;
 }
 .experience .work {
@@ -54,8 +56,8 @@
   position: absolute;
   background-color: white;
   width: 2px;
-  height: 100%;
-  top: 0%;
+  height: 120%;
+  top: -10%;
   left: -18px;
 }
 .experience .work::before {
@@ -90,7 +92,7 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  top: 0;
+  top: -10%;
   left: -11px;
 }
 .education .first::before {
@@ -100,7 +102,7 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  bottom: 0;
+  bottom: -10%;
   left: -11px;
 }
 .education .work {
@@ -111,8 +113,8 @@
   position: absolute;
   background-color: white;
   width: 2px;
-  height: 100%;
-  top: 0%;
+  height: 120%;
+  top: -10%;
   left: -18px;
 }
 .education .work::before {
@@ -170,9 +172,66 @@
   background-color: transparent;
 }
 
+/*SCROLL EFFECT*/
+.reveal {
+  position: relative;
+  transform: scale(2, 2);
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+.reveal.active {
+  transform: scale(1, 1);
+  opacity: 1;
+}
+
+.pop {
+  position: relative;
+  transform: translateX(-80px);
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+.pop.active {
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+.right {
+  position: relative;
+  transform: translateX(20px);
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+.right.active {
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+.down {
+  position: relative;
+  transform: translateY(-80px);
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+.down.active {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
 .top {
   background-color: #2679d5;
   min-height: 5px;
+}
+
+.tx-title {
+  font-family: "Ink Free", sans-serif;
+}
+
+section {
+  overflow: hidden;
 }
 
 .summary {

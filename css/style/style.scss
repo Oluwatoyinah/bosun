@@ -5,15 +5,22 @@
 @import './tools';
 @import './project';
 @import './contact';
-
+@import './scroll';
+@import url('http://fonts.cdnfonts.com/css/ink-free');
 
 .top {
     background-color: #2679d5;
     min-height: 5px;
 }
 
+.tx-title {
+    font-family: 'Ink Free', sans-serif;
+                                                
+}
 
-
+section {
+    overflow: hidden;
+}
 .summary {
     background-color: #2679d5;
     color: white;

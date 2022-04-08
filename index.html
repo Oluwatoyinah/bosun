@@ -30,7 +30,7 @@
     <section class="container-fluid about">
       <div class="container">
         <div class="row">
-          <h1 class="col-md-12">.about</h1>
+          <h1 class="col-md-12 tx-title">.about</h1>
           <div class="col-md-12 row">
             <div class="col-md-4">
               <img src="" alt="A picture will be here">
@@ -45,27 +45,27 @@
     <section class="container-fluid experience">
       <div class="container">
         <div class="row">
-          <h1>.work experience</h1>
+          <h1 class="reveal tx-title">.work experience</h1>
           <div class="col-lg-10 first">
             <div class="work p-3">
-              <h5>INTERN DEVELOPER</h5>
-              <h6>Hostnownow Limited. Lagos Nigeria | Sep. 2017 - Feb. 2018</h6>
-              <p>Designed Content Management Systems and also designed websites with WordPress.</p>
+              <h5 class="right">INTERN DEVELOPER</h5>
+              <h6 class="right">Hostnownow Limited. Lagos Nigeria | Sep. 2017 - Feb. 2018</h6>
+              <p class="">Designed Content Management Systems and also designed websites with WordPress.</p>
             </div>
             <div class="work p-3">
-              <h5>BACKEND DEVELOPER</h5>
-              <h6>Offmyyard Lagos Nigeria | May 2020 - Dec. 2020 (Contract)</h6>
-              <p>Working currently with backend logics and integrating Google Geolocation API.</p>
+              <h5 class="right">BACKEND DEVELOPER</h5>
+              <h6 class="right">Offmyyard Lagos Nigeria | May 2020 - Dec. 2020 (Contract)</h6>
+              <p class="">Working currently with backend logics and integrating Google Geolocation API.</p>
             </div>
             <div class="work p-3">
-              <h5>SOFTWARE DEVELOPER</h5>
-              <h6>B2b Alaba E-commerce Limited Lagos Nigeria | Oct. 2019 - April 2020</h6>
-              <p>Building reusable code and features, integrating server side logic and writing logic to implement logistics to the platform.</p>
+              <h5 class="right">SOFTWARE DEVELOPER</h5>
+              <h6 class="right">B2b Alaba E-commerce Limited Lagos Nigeria | Oct. 2019 - April 2020</h6>
+              <p class="">Building reusable code and features, integrating server side logic and writing logic to implement logistics to the platform.</p>
             </div>
             <div class="work p-3">
-              <h5>SOFTWARE DEVELOPER</h5>
-              <h6>Termii Inc. Lagos Nigeria | July 2020 - Present</h6>
-              <p>Researching, designing, implementing and managing software programs, identifying area of modification in existing programs and subsequently developing the modification, writing and implementing efficient code, working closely with other developers, UX designers and system analysts and dockerizing applications.</p>
+              <h5 class="right">SOFTWARE DEVELOPER</h5>
+              <h6 class="right">Termii Inc. Lagos Nigeria | July 2020 - Present</h6>
+              <p class="">Researching, designing, implementing and managing software programs, identifying area of modification in existing programs and subsequently developing the modification, writing and implementing efficient code, working closely with other developers, UX designers and system analysts and dockerizing applications.</p>
             </div>
           </div>
         </div></div>
@@ -74,13 +74,13 @@
     <section class="container-fluid education">
       <div class="container">
         <div class="row">
-          <h1>.educational history</h1>
+          <h1 class="reveal">.educational history</h1>
           <div class="col-md-3"></div>
           <div class="col-md-9 first">
             <div class="work p-3">
-              <h5>TAI SOLARIN UNIVERSITY OF EDUCATION</h5>
-              <h6>Bachelors of Science(Ed) Computer Science | Sep 2015 - June 2019</h6>
-              <p>Data structures and Project Management and basis of programming languages</p>
+              <h5 class="right">TAI SOLARIN UNIVERSITY OF EDUCATION</h5>
+              <h6 class="right">Bachelors of Science(Ed) Computer Science | Sep 2015 - June 2019</h6>
+              <p class="">Data structures and Project Management and basis of programming languages</p>
             </div>
           </div>
         </div>
@@ -90,7 +90,7 @@
     <section class="container-fluid tools">
       <div class="container">
         <div class="row">
-          <h1>.tools</h1>
+          <h1 class="right">.tools</h1>
         </div></div>
     </section>
 
@@ -146,7 +146,118 @@
 
     <div class="container-fluid top"></div>
 
+    <script>
+      window.addEventListener('scroll', reveal);
+  
+      function reveal(){
+          var reveals = document.querySelectorAll('.reveal');
+  
+          for (var i = 0; i < reveals.length; i++) {
+              var windowheight = window.innerHeight;
+              var revealtop = reveals[i].getBoundingClientRect().top;
+              var revealpoint  = 150;
+  
+              if(revealtop < windowheight - revealpoint){
+                  reveals[i].classList.add('active');
+              } else {
+                  reveals[i].classList.remove('active');
+              }
+          }
+      }
 
+      window.addEventListener('scroll', right);
+      function right(){
+          var rights =  document.querySelectorAll('.right');
+  
+          for (var i = 0; i < rights.length; i++) {
+              var windowheight = window.innerHeight;
+              var righttop = rights[i].getBoundingClientRect().top;
+              var rightpoint  = 150;
+  
+              if(righttop < windowheight - rightpoint){
+                  rights[i].classList.add('active');
+              } else {
+                  rights[i].classList.remove('active');
+              }
+          }
+      }
+
+      window.addEventListener('scroll', down);
+      function down(){
+          var downs =  document.querySelectorAll('.down');
+  
+          for (var i = 0; i < downs.length; i++) {
+              var windowheight = window.innerHeight;
+              var downtop = downs[i].getBoundingClientRect().top;
+              var downpoint  = 150;
+  
+              if(downtop < windowheight - downpoint){
+                  downs[i].classList.add('active');
+              } else {
+                  downs[i].classList.remove('active');
+              }
+          }
+      }
+
+
+//   var a = document.querySelectorAll('.location');
+//   var b = document.getElementById('loca');
+//   a.forEach(item => {
+//       item.addEventListener('mouseover', toyin);
+//       item.addEventListener('mouseout', toyi);
+//       item.addEventListener('click', toy);
+//       function toyin() {
+//           b.classList.add('pop');
+//           b.classList.add('active');
+//       }
+//       function toyi() {
+//           b.classList.remove('active');
+//       }
+//       function toy() {
+//           b.classList.remove('active');
+//           b.classList.remove('pop');
+//       }
+//   });
+
+
+//   const media = () =>{
+// let q = matchMedia("(max-width:989px)");
+// if (q.matches) {
+//           b.classList.remove('pop');
+//           a.forEach(item => {
+//       item.addEventListener('mouseover', toy);
+//       item.addEventListener('mouseout', toy);
+//       item.addEventListener('click', toy); 
+
+//       function toy() {
+//           b.classList.remove('active');
+//           b.classList.remove('pop');
+//       }
+//       });
+// }
+// else {
+// a.forEach(item => {
+//       item.addEventListener('mouseover', toyin);
+//       item.addEventListener('mouseout', toyi);
+//       item.addEventListener('click', toy);
+//       function toyin() {
+//           b.classList.add('active');
+//       }
+//       function toyi() {
+//           b.classList.remove('active');
+//       }
+//       function toy() {
+//           b.classList.remove('active');
+//           b.classList.remove('pop');
+//       }
+//   });
+// }
+// }
+// onload = media;
+// onresize = media;
+
+  
+      </script> 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
