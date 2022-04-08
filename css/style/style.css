@@ -6,7 +6,7 @@
   padding: 20px 0;
 }
 .about h1 {
-  font-family: "Ink Free", sans-serif;
+  font-family: "Allura", cursive;
   font-weight: 900;
   font-size: 8vw;
 }
@@ -18,7 +18,7 @@
   padding: 20px 0;
 }
 .experience h1 {
-  font-family: "Ink Free", sans-serif;
+  font-family: "Allura", cursive;
   font-weight: 900;
   font-size: 8vw;
   text-align: right;
@@ -77,7 +77,7 @@
   padding: 20px 0;
 }
 .education h1 {
-  font-family: "Ink Free", sans-serif;
+  font-family: "Allura", cursive;
   font-weight: 900;
   font-size: 8vw;
 }
@@ -134,7 +134,7 @@
   padding: 20px 0;
 }
 .tools h1 {
-  font-family: "Ink Free", sans-serif;
+  font-family: "Allura", cursive;
   font-weight: 900;
   font-size: 8vw;
   text-align: right;
@@ -147,7 +147,7 @@
   padding: 20px 0;
 }
 .project h1 {
-  font-family: "Ink Free", sans-serif;
+  font-family: "Allura", cursive;
   font-weight: 900;
   font-size: 8vw;
 }
@@ -159,7 +159,7 @@
   padding: 20px 0;
 }
 .contact h1 {
-  font-family: "Ink Free", sans-serif;
+  font-family: "Allura", cursive;
   font-weight: 900;
   font-size: 8vw;
   text-align: right;
@@ -227,7 +227,7 @@
 }
 
 .tx-title {
-  font-family: "Ink Free", sans-serif;
+  font-family: "Allura", cursive;
 }
 
 section {
