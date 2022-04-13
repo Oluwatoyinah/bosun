@@ -10,3 +10,18 @@
         font-size: 12vw;
     }
 }
+
+
+@media (max-width:768px) {
+    .about {
+        
+        p {
+            text-align: center;
+        }
+
+        img {
+            width: 80%;
+            margin: auto 10%;
+        }
+    }
+}

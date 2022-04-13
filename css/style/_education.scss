@@ -9,6 +9,9 @@
         font-weight: 900;
         font-size: 12vw;
     }
+    h5,h6 {
+        font-style: $italic;
+    }
     .first {
         position: relative;
         background-color: rgba($color: #303044, $alpha: 0.4);

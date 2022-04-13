@@ -11,6 +11,15 @@
   font-size: 12vw;
 }
 
+@media (max-width: 768px) {
+  .about p {
+    text-align: center;
+  }
+  .about img {
+    width: 80%;
+    margin: auto 10%;
+  }
+}
 .experience {
   min-height: 50vh;
   background-color: #00000a;
@@ -22,6 +31,9 @@
   font-weight: 900;
   font-size: 12vw;
   text-align: right;
+}
+.experience h5, .experience h6 {
+  font-style: italic;
 }
 .experience .first {
   position: relative;
@@ -80,6 +92,9 @@
   font-family: "Qwitcher Grypen", cursive;
   font-weight: 900;
   font-size: 12vw;
+}
+.education h5, .education h6 {
+  font-style: italic;
 }
 .education .first {
   position: relative;
