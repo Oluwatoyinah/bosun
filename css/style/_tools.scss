@@ -1,5 +1,5 @@
 .tools {
-    min-height: 50vh;
+    min-height: 70vh;
     background-color: $bgcolor;
     color: white;
     padding:  20px 0;
@@ -9,8 +9,12 @@
         font-size: 12vw;
         text-align: right;
     }
+    .tech {
+        display: grid;
+        place-content: center;
+    }
     .laptop {
-        font-size: 9vw;
-        color: white;
+        font-size: 6vw;
+        color: rgb(205, 204, 207);
     }
 }

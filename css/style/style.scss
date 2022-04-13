@@ -6,8 +6,10 @@
 @import './tools';
 @import './project';
 @import './contact';
+@import './header';
 // @import './scroll';
-     
+
+
 
 body {
     
@@ -23,12 +25,14 @@ section {
     overflow: hidden;
 }
 .summary {
-    background-color: #2679d5;
-    color: white;
+    border:none;
+    background-color: #00000a;
+    color: #2679d5;
     padding: 10px 5px;
     display: grid;
     place-content: center;
     min-height: 10vh;
+    font-family: $curly;
 }
 
 
@@ -38,3 +42,58 @@ section {
 
 
 
+// new design
+
+.rowww {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+    color: white;
+	// margin: 100px 0;
+}
+
+.coll-1 {
+	position: relative;
+    color: white;
+}
+
+.coll-1::after {
+	content: '';
+	width: 3px;
+	height: 140%;
+	background: #fff;
+	position: absolute;
+	left: -20px;
+	top: -20%;
+}
+
+.coll-1 h1{
+	font-size: 54px; 
+}
+
+.coll-1 h5{
+	font-size: 30px;
+	font-weight: 100;
+	color: #fff;
+	font-family: $curly; 
+}
+
+
+.coll-2 {
+	position: relative;
+}
+
+.coll-2 .bosun {
+	width: 90%;
+}
+
+.color-box {
+	position: absolute;
+	right: 0;
+	top: 20%;
+	background-color: #fff;
+	height: 70%;
+	width: 80%;
+	z-index: -1;
+	transform: translateX(150px);
+}
