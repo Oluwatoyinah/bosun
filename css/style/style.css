@@ -154,6 +154,10 @@
   font-size: 12vw;
   text-align: right;
 }
+.tools .laptop {
+  font-size: 9vw;
+  color: white;
+}
 
 .project {
   min-height: 50vh;
