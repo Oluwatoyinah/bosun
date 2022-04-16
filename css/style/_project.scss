@@ -1,3 +1,5 @@
+
+
 .project {
     min-height: 50vh;
     background-color: $bgcolor;
@@ -11,11 +13,43 @@
     .projects-list {
         .box {
             border-top: 3px solid white;
-            //  border-bottom: 1px solid white ; 
+            color: #cdcdcd;
+            // text-align: right;
             a {
-                color: white;
                 text-decoration: none;
+                font-family: $formal;
+                font-size : 10vw;
+                color: #cdcdcd;
             }
+        }
+    }
+}
+
+
+
+@media(max-width: 568px) {
+    .projects-list {
+        .box {
+            // text-align: right;
+            a {
+                
+                color: #fff;
+            }
+            .view{
+                a {
+                    font-size: 18px;
+                    text-decoration: underline;
+                    display: block;
+                    margin-bottom: 5px;
+                    i {
+                        margin-left: 5px;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        .box:nth-of-type(2) {
+            text-align: right;
         }
     }
 }

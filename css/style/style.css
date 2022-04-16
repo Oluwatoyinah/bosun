@@ -189,12 +189,33 @@
 }
 .project .projects-list .box {
   border-top: 3px solid white;
+  color: #cdcdcd;
 }
 .project .projects-list .box a {
-  color: white;
   text-decoration: none;
+  font-family: "Anton", sans-serif;
+  font-size: 10vw;
+  color: #cdcdcd;
 }
 
+@media (max-width: 568px) {
+  .projects-list .box a {
+    color: #fff;
+  }
+  .projects-list .box .view a {
+    font-size: 18px;
+    text-decoration: underline;
+    display: block;
+    margin-bottom: 5px;
+  }
+  .projects-list .box .view a i {
+    margin-left: 5px;
+    font-size: 20px;
+  }
+  .projects-list .box:nth-of-type(2) {
+    text-align: right;
+  }
+}
 .contact {
   min-height: 50vh;
   background-color: #00000a;
