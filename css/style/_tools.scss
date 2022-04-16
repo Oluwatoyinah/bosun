@@ -9,12 +9,26 @@
         font-size: 12vw;
         text-align: right;
     }
-    .tech {
-        display: grid;
-        place-content: center;
-    }
-    .laptop {
+    .tool-icon {
         font-size: 6vw;
-        color: rgb(205, 204, 207);
+        color: #cdcccf;
+        margin: 30px;
     }
+}
+
+@media (max-width: 586px) {
+    .tools {
+        min-height: 40vh;
+        h1 {
+            font-family: $curly;
+            font-weight: 900;
+            font-size: 12vw;
+            text-align: right;
+        }
+        .tool-icon {
+            font-size: 12vw;
+            color: #cdcccf;
+            margin: 20px 10px;
+        }
+    }  
 }

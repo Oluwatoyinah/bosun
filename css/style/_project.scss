@@ -8,4 +8,14 @@
         font-weight: 900;
         font-size: 12vw;
     }
+    .projects-list {
+        .box {
+            border-top: 3px solid white;
+            //  border-bottom: 1px solid white ; 
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
 }

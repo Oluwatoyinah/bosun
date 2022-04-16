@@ -154,15 +154,28 @@
   font-size: 12vw;
   text-align: right;
 }
-.tools .tech {
-  display: grid;
-  place-content: center;
-}
-.tools .laptop {
+.tools .tool-icon {
   font-size: 6vw;
-  color: rgb(205, 204, 207);
+  color: #cdcccf;
+  margin: 30px;
 }
 
+@media (max-width: 586px) {
+  .tools {
+    min-height: 40vh;
+  }
+  .tools h1 {
+    font-family: "Qwitcher Grypen", cursive;
+    font-weight: 900;
+    font-size: 12vw;
+    text-align: right;
+  }
+  .tools .tool-icon {
+    font-size: 12vw;
+    color: #cdcccf;
+    margin: 20px 10px;
+  }
+}
 .project {
   min-height: 50vh;
   background-color: #00000a;
@@ -173,6 +186,13 @@
   font-family: "Qwitcher Grypen", cursive;
   font-weight: 900;
   font-size: 12vw;
+}
+.project .projects-list .box {
+  border-top: 3px solid white;
+}
+.project .projects-list .box a {
+  color: white;
+  text-decoration: none;
 }
 
 .contact {
@@ -195,10 +215,13 @@
   background-color: transparent;
 }
 .contact .btn-contact {
-  background-color: white;
-  color: #1a1a1F;
-  font-weight: bold;
-  padding: 10px 35px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 0;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  font-size: 13px;
 }
 
 header {
