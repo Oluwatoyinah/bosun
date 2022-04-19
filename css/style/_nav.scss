@@ -1,0 +1,39 @@
+nav {
+    background-color: #00000a;
+    display: flex;
+    justify-content: space-between;
+    .logo {
+        font-family: $oxygen;
+        color: white;
+        font-size: 5vw;
+    }
+    .ham {
+        display: grid;
+        place-content: center;
+        .one {
+            width: 40px;
+            height: 2px;
+            background: #fff;
+            display: block;
+            margin-bottom: 6px;
+            transform: rotate(135deg);
+        }
+
+        .two {
+            width: 40px;
+            height: 2px;
+            background-color: #fff;
+            display: block;
+            margin-bottom: 6px;
+            transform: rotate(135deg);
+        }
+
+        .three {
+            width: 40px;
+            height: 2px;
+            background-color: #fff;
+            display: block;
+            transform: rotate(135deg);
+        }
+    }
+}
