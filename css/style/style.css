@@ -24,7 +24,7 @@
   min-height: 50vh;
   background-color: #00000a;
   color: white;
-  padding: 20px 0;
+  padding: 20px 0 30px;
 }
 .experience h1 {
   font-family: "Qwitcher Grypen", cursive;
@@ -160,6 +160,10 @@
   margin: 30px;
 }
 
+[class^=devicon-], [class*=" devicon-"] {
+  line-height: normal;
+}
+
 @media (max-width: 586px) {
   .tools {
     min-height: 40vh;
@@ -173,7 +177,7 @@
   .tools .tool-icon {
     font-size: 12vw;
     color: #cdcccf;
-    margin: 20px 10px;
+    margin: 20px;
   }
 }
 .project {
@@ -209,7 +213,7 @@
     margin-bottom: 5px;
   }
   .projects-list .box .view a i {
-    margin-left: 5px;
+    margin-left: 3px;
     font-size: 20px;
   }
   .projects-list .box:nth-of-type(2) {
@@ -257,6 +261,10 @@ header hr {
 }
 header .section1 {
   color: white;
+}
+
+body {
+  font-family: "Oxygen", sans-serif;
 }
 
 .top {

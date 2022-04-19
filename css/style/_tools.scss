@@ -16,6 +16,10 @@
     }
 }
 
+[class^=devicon-], [class*=" devicon-"] {
+    line-height: normal;
+}
+
 @media (max-width: 586px) {
     .tools {
         min-height: 40vh;
@@ -28,7 +32,7 @@
         .tool-icon {
             font-size: 12vw;
             color: #cdcccf;
-            margin: 20px 10px;
+            margin: 20px;
         }
     }  
 }
