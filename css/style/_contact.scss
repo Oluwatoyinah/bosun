@@ -10,7 +10,7 @@
         text-align: right;
     }
 
-    input[type=text] , textarea{
+    input[type=text] , input[type=email], textarea{
         font-size: 13px;
         padding: 10px;
         border: 1px solid #FFF;
@@ -19,13 +19,8 @@
     
     }
     .btn-contact {
-        background-color: transparent;
-        border: 1px solid white;
-        border-radius: 0;
-        color: white;
-        padding: 10px 25px;
-        text-decoration: none;
-        font-size: 13px;
-
+        padding: 8px 30px;
+        background-color: white;
+        color: #00000a;
     }
 }

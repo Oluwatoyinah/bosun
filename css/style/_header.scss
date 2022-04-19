@@ -3,11 +3,13 @@ header {
     display: grid;
     place-content: center;
     background-color: $bgcolor;
-    hr {
-        height: 5px;
-        background-color: red;
+    color: #cdcdcd;
+    font-family: $oxygen;
+   
+    h1 {
+        font-size: 9vw;
     }
-    .section1 {
-        color: white;
+    .tx-blue {
+        color: #2679d5;
     }
 }

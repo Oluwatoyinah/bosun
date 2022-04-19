@@ -232,7 +232,7 @@
   font-size: 12vw;
   text-align: right;
 }
-.contact input[type=text], .contact textarea {
+.contact input[type=text], .contact input[type=email], .contact textarea {
   font-size: 13px;
   padding: 10px;
   border: 1px solid #FFF;
@@ -240,13 +240,9 @@
   background-color: transparent;
 }
 .contact .btn-contact {
-  background-color: transparent;
-  border: 1px solid white;
-  border-radius: 0;
-  color: white;
-  padding: 10px 25px;
-  text-decoration: none;
-  font-size: 13px;
+  padding: 8px 30px;
+  background-color: white;
+  color: #00000a;
 }
 
 header {
@@ -254,12 +250,21 @@ header {
   display: grid;
   place-content: center;
   background-color: #00000a;
+  color: #cdcdcd;
+  font-family: "Oxygen", sans-serif;
 }
-header hr {
-  height: 5px;
-  background-color: red;
+header h1 {
+  font-size: 9vw;
 }
-header .section1 {
+header .tx-blue {
+  color: #2679d5;
+}
+
+footer {
+  background-color: #00000a;
+  color: white;
+}
+footer a {
   color: white;
 }
 
@@ -278,67 +283,15 @@ section {
 
 .summary {
   border: none;
+  color: #cdcdcd;
   background-color: #00000a;
-  color: #2679d5;
   padding: 10px 5px;
   display: grid;
   place-content: center;
   min-height: 10vh;
-  font-family: "Qwitcher Grypen", cursive;
+  font-family: "Anton", sans-serif;
 }
 
 .btn {
   padding: 5px 10px;
-}
-
-.rowww {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-}
-
-.coll-1 {
-  position: relative;
-  color: white;
-}
-
-.coll-1::after {
-  content: "";
-  width: 3px;
-  height: 140%;
-  background: #fff;
-  position: absolute;
-  left: -20px;
-  top: -20%;
-}
-
-.coll-1 h1 {
-  font-size: 54px;
-}
-
-.coll-1 h5 {
-  font-size: 30px;
-  font-weight: 100;
-  color: #fff;
-  font-family: "Qwitcher Grypen", cursive;
-}
-
-.coll-2 {
-  position: relative;
-}
-
-.coll-2 .bosun {
-  width: 90%;
-}
-
-.color-box {
-  position: absolute;
-  right: 0;
-  top: 20%;
-  background-color: #fff;
-  height: 70%;
-  width: 80%;
-  z-index: -1;
-  transform: translateX(150px);
 }/*# sourceMappingURL=style.css.map */
