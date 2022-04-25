@@ -1,130 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://use.fontawesome.com/507b67a989.js"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://use.fontawesome.com/507b67a989.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap" rel="stylesheet">
 
-    <!-- dev icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-          
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./css/style/style.css">
-    
-    <title>Olatunbosun</title>
-    <style>
-      p {
-        font-size: 1rem;
-      }
-    </style>
+  <!-- dev icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./css/style/style.css">
+
+  <title>Olatunbosun</title>
+  <style>
+    p {
+      font-size: 1rem;
+    }
+  </style>
 </head>
+
 <body>
+  <div class="side-nav" id="side-nav">
+    <a href="" class="close" id="sideNav-close">&times;</a>
+    <a href="#about" onclick="removeSideNav()">About</a>
+    <a href="#projects" onclick="removeSideNav()">Projects</a>
+    <a href="#contact" onclick="removeSideNav()">Contact</a>
+  </div>
 
-  
+
   <div class="container-fluid top"></div>
-      <nav class="container-fluid px-md-5 py-3">
-        <div class="logo">
-          <h1>.Olatunss</h1>
+  <nav class="container-fluid px-md-5 py-3">
+    <div class="logo">
+      <h1>.boss</h1>
+    </div>
+    <div class="main-nav d-none d-md-block">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+    <div class="ham d-md-none" id="sideNav-open">
+      <span class="one"></span>
+      <span class="two"></span>
+      <span class="three"></span>
+    </div>
+
+   
+  </nav>
+  <header class="container-fluid">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-6" style="display: grid; align-content: center;">
+          <h1>Hello<span class="tx-blue">.</span></h1>
+          <h1>I am</h1>
+          <h1 class="tx-blue fw-bold">Olatunbosun</h1>
         </div>
 
-        <div class="ham">
-          <span class="one"></span>
-          <span class="two"></span>
-          <span class="three"></span>
-        </div>
-      </nav>
-    <header class="container-fluid">
-      <div class="container py-5">
+
+      </div>
+    </div>
+  </header>
+  <section class="container-fluid about" id="about">
+    <div class="container">
+      <div class="row">
+        <h1 class="col-md-12">.about me</h1>
+        <div class="col-12">
           <div class="row">
-            <div class="col-md-6" style="display: grid; align-content: center;">
-                <h1>Hello<span class="tx-blue">.</span></h1>
-                <h1>I am</h1>
-                <h1 class="tx-blue fw-bold">Olatunbosun</h1>
+            <div class="col-md-4">
+              <img src="./images/Bosun_nanmbl.png"
+                style="width: 90%; margin: auto 5%; max-width: 100%; border-radius: 50%; border: 4px solid #2679db"
+                alt="A picture will be here">
             </div>
-
-            
-          </div>
-      </div>
-    </header>
-    <!-- <div class="container-fluid summary">
-      <h1>Tech Enthusiast | Software Developer </h1> 
-    </div> -->
-
-    <section class="container-fluid about">
-      <div class="container">
-        <div class="row">
-          <h1 class="col-md-12">.about me</h1>
-          <div class="col-12">
-            <div class="row">
-              <div class="col-md-4">
-                <img src="./images/Bosun_nanmbl.png" style="width: 90%; margin: auto 5%; max-width: 100%; border-radius: 50%; border: 4px solid #2679db" alt="A picture will be here">
-              </div>
-              <div class="col-md-8 py-3" style="display: grid; place-content: center;">
-                <p class="">Hi, I'm Olulode Olatunbosun. I am a software Developer from Nigeria. Passionate Fullstack Developer with 3+ years experience developing web applications and API using php (Laravel/Codeigniter), Javascript, Nodejs and Wordpress. Looking to join your deployment team where my skills will be utilized in the design of scalable, data-driven, modular products that can be adapted to meet changing business requirements.</p>
-              </div>
-            </div>
-            
-          </div>
-          
-    </section>
-
-    <section class="container-fluid experience">
-      <div class="container">
-        <div class="row">
-          <h1 class="reveal">.work experience</h1>
-          <div class="col-lg-10 col-11 mx-auto first">
-            <div class="work p-3">
-              <h5 class="right">INTERN DEVELOPER</h5>
-              <h6 class="right">Hostnownow Limited. Lagos Nigeria | Sep. 2017 - Feb. 2018</h6>
-              <p class="">Designed Content Management Systems and also designed websites with WordPress.</p>
-            </div>
-            <div class="work p-3">
-              <h5 class="right">BACKEND DEVELOPER</h5>
-              <h6 class="right">Offmyyard Lagos Nigeria | May 2020 - Dec. 2020 (Contract)</h6>
-              <p class="">Working currently with backend logics and integrating Google Geolocation API.</p>
-            </div>
-            <div class="work p-3">
-              <h5 class="right">SOFTWARE DEVELOPER</h5>
-              <h6 class="right">B2b Alaba E-commerce Limited Lagos Nigeria | Oct. 2019 - April 2020</h6>
-              <p class="">Building reusable code and features, integrating server side logic and writing logic to implement logistics to the platform.</p>
-            </div>
-            <div class="work p-3">
-              <h5 class="right">SOFTWARE DEVELOPER</h5>
-              <h6 class="right">Termii Inc. Lagos Nigeria | July 2020 - Present</h6>
-              <p class="">Researching, designing, implementing and managing software programs, identifying area of modification in existing programs and subsequently developing the modification, writing and implementing efficient code, working closely with other developers, UX designers and system analysts and dockerizing applications.</p>
+            <div class="col-md-8 py-3" style="display: grid; place-content: center;">
+              <p class="">Hi, I'm Olulode Olatunbosun. I am a software Developer from Nigeria. Passionate Fullstack
+                Developer with 3+ years experience developing web applications and API using php (Laravel/Codeigniter),
+                Javascript, Nodejs and Wordpress. Looking to join your deployment team where my skills will be utilized
+                in the design of scalable, data-driven, modular products that can be adapted to meet changing business
+                requirements.</p>
             </div>
           </div>
-        </div></div>
-    </section>
 
-    <section class="container-fluid education">
-      <div class="container">
-        <div class="row">
-          <h1 class="reveal">.educational history</h1>
-          <div class="col-md-3"></div>
-          <div class="col-md-9 col-11 mx-auto first">
-            <div class="work p-3">
-              <h5 class="right">TAI SOLARIN UNIVERSITY OF EDUCATION</h5>
-              <h6 class="right">Bachelors of Science(Ed) Computer Science | Sep 2015 - June 2019</h6>
-              <p class="">Data structures and Project Management and basis of programming languages</p>
-            </div>
+        </div>
+
+  </section>
+
+  <section class="container-fluid experience">
+    <div class="container">
+      <div class="row">
+        <h1 class="reveal">.work experience</h1>
+        <div class="col-lg-10 col-11 mx-auto first">
+          <div class="work p-3">
+            <h5 class="right">INTERN DEVELOPER</h5>
+            <h6 class="right">Hostnownow Limited. Lagos Nigeria | Sep. 2017 - Feb. 2018</h6>
+            <p class="">Designed Content Management Systems and also designed websites with WordPress.</p>
+          </div>
+          <div class="work p-3">
+            <h5 class="right">BACKEND DEVELOPER</h5>
+            <h6 class="right">Offmyyard Lagos Nigeria | May 2020 - Dec. 2020 (Contract)</h6>
+            <p class="">Working currently with backend logics and integrating Google Geolocation API.</p>
+          </div>
+          <div class="work p-3">
+            <h5 class="right">SOFTWARE DEVELOPER</h5>
+            <h6 class="right">B2b Alaba E-commerce Limited Lagos Nigeria | Oct. 2019 - April 2020</h6>
+            <p class="">Building reusable code and features, integrating server side logic and writing logic to
+              implement logistics to the platform.</p>
+          </div>
+          <div class="work p-3">
+            <h5 class="right">SOFTWARE DEVELOPER</h5>
+            <h6 class="right">Termii Inc. Lagos Nigeria | July 2020 - Present</h6>
+            <p class="">Researching, designing, implementing and managing software programs, identifying area of
+              modification in existing programs and subsequently developing the modification, writing and implementing
+              efficient code, working closely with other developers, UX designers and system analysts and dockerizing
+              applications.</p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="container-fluid tools">
-      <div class="container">
-        <div class="row">
-          <h1 class="right">.tools</h1>
-        </div class="col-md-10">
-            <div class="tech">
-              <!-- <i class="tool-icon devicon-php-plain "></i>
+  <section class="container-fluid education">
+    <div class="container">
+      <div class="row">
+        <h1 class="reveal">.educational history</h1>
+        <div class="col-md-3"></div>
+        <div class="col-md-9 col-11 mx-auto first">
+          <div class="work p-3">
+            <h5 class="right">TAI SOLARIN UNIVERSITY OF EDUCATION</h5>
+            <h6 class="right">Bachelors of Science(Ed) Computer Science | Sep 2015 - June 2019</h6>
+            <p class="">Data structures and Project Management and basis of programming languages</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid tools">
+    <div class="container">
+      <div class="row">
+        <h1 class="right">.tools</h1>
+      </div class="col-md-10">
+      <div class="tech" style="display: flex; justify-content: space-around;">
+        <img src="./images/vue.png" alt="">
+        <img src="./images/laravel.png" alt="">
+        <!-- <i class="tool-icon devicon-php-plain "></i>
               <i class="tool-icon devicon-javascript-plain"></i>
               <i class="tool-icon devicon-vuejs-plain-wordmark"></i>
               <i class="tool-icon devicon-mongodb-plain-wordmark"></i>
@@ -137,98 +162,120 @@
               <i class="tool-icon devicon-postgresql-plain-wordmark"></i>
               <i class="tool-icon devicon-linux-plain"></i>
               <i class="tool-icon devicon-git-plain"></i> -->
-            </div>
+      </div>
 
-        </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="container-fluid project">
-      <div class="container">
-        <div class="row">
-          <h1>.projects</h1>
-          <div class="projects-list">
-            <div class="py-2 box">
-                <a href="">BLUENET</a>
-                <p class="d-md-none">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint eveniet modi, incidunt velit ut exercitationem reiciendis nisi saepe ex aut praesentium quidem facilis quis omnis expedita vitae? Necessitatibus, autem corrupti?</p>
-                <div class="d-md-none view">
-                  <a href="">VIEW SITE <i class="fa fa-external-link" aria-hidden="true"></i></a>
-                  <a href="">VIEW CODE <i class="fa fa-github" aria-hidden="true"></i></a>
-                </div>
-            </div>
-            <div class="py-2 box">
-              <a href="">ADMISSION LINK</a>
-              <p class="d-md-none">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint eveniet modi, incidunt velit ut exercitationem reiciendis nisi saepe ex aut praesentium quidem facilis quis omnis expedita vitae? Necessitatibus, autem corrupti?</p>
-              <div class="d-md-none view">
-                  <a href="">VIEW SITE <i class="fa fa-external-link" aria-hidden="true"></i></a>
-                  <a href="">VIEW CODE <i class="fa fa-github" aria-hidden="true"></i></a>
-                </div>
-            </div>
+  <section class="container-fluid project" id="projects">
+    <div class="container">
+      <div class="row">
+        <h1>.projects</h1>
+        <div class="projects-list">
           <div class="py-2 box">
-                <a href="">A1TUTOR</a>
-                <p class="d-md-none">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint eveniet modi, incidunt velit ut exercitationem reiciendis nisi saepe ex aut praesentium quidem facilis quis omnis expedita vitae? Necessitatibus, autem corrupti?</p>
+            <a href="">BLUENET</a>
+            <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint eveniet modi, incidunt
+              velit ut exercitationem reiciendis nisi saepe ex aut praesentium quidem facilis quis omnis expedita vitae?
+              Necessitatibus, autem corrupti?</p>
             <div class="d-md-none view">
-                  <a href="">VIEW SITE <i class="fa fa-external-link" aria-hidden="true"></i></a>
-                  <a href="">VIEW CODE <i class="fa fa-github" aria-hidden="true"></i></a>
-                </div>
-              </div>
+              <a href="">VIEW SITE <i class="fa fa-external-link" aria-hidden="true"></i></a>
+              <a href="">VIEW CODE <i class="fa fa-github" aria-hidden="true"></i></a>
+            </div>
           </div>
-        </div></div>
-    </section>
-
-    <section class="container-fluid contact pb-5">
-      <div class="container">
-        <div class="row">
-          <h1>.say hi</h1>
-            <div class="col-lg-8 col-md-10 mx-auto mt-2">
-              <div class="row g-3">
-                  <div class="col-md-6">
-                    <input type="text" class="form-control" id="" placeholder="Name">
-                  </div>
-
-                  <div class="col-md-6">
-                    <input type="email" class="form-control" id="" placeholder="Email address" required>
-                  </div>
-                  
-                  <div class="col-md-12">
-                    <input type="text" class="form-control" id="" placeholder="e.g Lagos, Nigeria">
-                  </div>
-
-                  <div class="col-md-12">
-                    <textarea rows="6" class="form-control" placeholder="Send a message"></textarea> 
-                  </div>
-
-                  <div>
-                    <button href="./" class="btn btn-contact rounded-0">Send</button> 
-                  </div>
-
-              </div>
-              
-        
-              </div>
+          <div class="py-2 box">
+            <a href="">ADMISSION LINK</a>
+            <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint eveniet modi, incidunt
+              velit ut exercitationem reiciendis nisi saepe ex aut praesentium quidem facilis quis omnis expedita vitae?
+              Necessitatibus, autem corrupti?</p>
+            <div class="d-md-none view">
+              <a href="">VIEW SITE <i class="fa fa-external-link" aria-hidden="true"></i></a>
+              <a href="">VIEW CODE <i class="fa fa-github" aria-hidden="true"></i></a>
+            </div>
+          </div>
+          <div class="py-2 box">
+            <a href="">A1TUTOR</a>
+            <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint eveniet modi, incidunt
+              velit ut exercitationem reiciendis nisi saepe ex aut praesentium quidem facilis quis omnis expedita vitae?
+              Necessitatibus, autem corrupti?</p>
+            <div class="d-md-none view">
+              <a href="">VIEW SITE <i class="fa fa-external-link" aria-hidden="true"></i></a>
+              <a href="">VIEW CODE <i class="fa fa-github" aria-hidden="true"></i></a>
             </div>
           </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <footer class="footer py-3 container-fluid">
-      <hr>
-       <div class="container">
-         <div class="row">
-          <div class="col-md-4">
-            <p>Olulode Olatunbosun</p>
+  <section class="container-fluid contact pb-5" id="contact">
+    <div class="container">
+      <div class="row">
+        <h1>.say hi</h1>
+        <div class="col-lg-8 col-md-10 mx-auto mt-2">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <input type="text" class="form-control" id="" placeholder="Name">
+            </div>
+
+            <div class="col-md-6">
+              <input type="email" class="form-control" id="" placeholder="Email address" required>
+            </div>
+
+            <div class="col-md-12">
+              <input type="text" class="form-control" id="" placeholder="e.g Lagos, Nigeria">
+            </div>
+
+            <div class="col-md-12">
+              <textarea rows="6" class="form-control" placeholder="Send a message"></textarea>
+            </div>
+
+            <div>
+              <button href="./" class="btn btn-contact rounded-0">Send</button>
+            </div>
+
           </div>
-          <div class="col-md-8 d-md-flex justify-content-md-around justify-content-between">
-            <a href="">holarthunbhosun@gmail.com</a>
-            <a href="">Twitter</a>
-            <a href="">Github</a>
-          </div>
-         </div>
-       </div>
-    </footer>
 
-    <div class="container-fluid top"></div>
 
-    <!-- <script>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <footer class="footer py-3 container-fluid">
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <p>Olulode Olatunbosun</p>
+        </div>
+        <div class="col-md-8 d-md-flex justify-content-md-around justify-content-between">
+          <a href="">holarthunbhosun@gmail.com</a>
+          <a href="">Twitter</a>
+          <a href="">Github</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="container-fluid top"></div>
+
+<script>
+  document.getElementById('sideNav-open').addEventListener('click', function() {
+    document.getElementById('side-nav').classList.add('front');
+  });
+
+  document.getElementById('sideNav-close').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.getElementById('side-nav').classList.remove('front');
+  })
+
+  function removeSideNav() {
+    document.getElementById('side-nav').classList.remove('front');
+  }
+</script>
+
+  <!-- <script>
       window.addEventListener('scroll', reveal);
   
       function reveal(){
@@ -283,7 +330,9 @@
 
 
       </script>  -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
+
 </html>

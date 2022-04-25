@@ -272,6 +272,9 @@ nav {
   background-color: #00000a;
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 nav .logo {
   font-family: "Oxygen", sans-serif;
@@ -305,9 +308,49 @@ nav .ham .three {
   display: block;
   transform: rotate(135deg);
 }
+nav .main-nav ul {
+  list-style: none;
+}
+nav .main-nav ul li {
+  display: inline-block;
+  margin: 10px;
+}
+nav .main-nav ul li a {
+  color: white;
+  padding: 10px;
+}
 
 body {
   font-family: "Oxygen", sans-serif;
+  position: relative;
+  scroll-behavior: smooth;
+}
+body .side-nav.front {
+  transform: translateX(0);
+}
+body .side-nav {
+  position: fixed;
+  inset: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(42, 42, 51, 0.9);
+  display: grid;
+  place-content: center;
+  z-index: 2;
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-in-out;
+}
+body .side-nav .close {
+  position: absolute;
+  top: 1%;
+  right: 10%;
+  font-size: 50px;
+  text-decoration: none;
+}
+body .side-nav a {
+  display: block;
+  font-size: 50px;
+  color: white;
 }
 
 .top {

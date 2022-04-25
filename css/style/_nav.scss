@@ -2,6 +2,9 @@ nav {
     background-color: #00000a;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1;
     .logo {
         font-family: $oxygen;
         color: white;
@@ -36,4 +39,20 @@ nav {
             transform: rotate(135deg);
         }
     }
+
+    .main-nav {
+        ul {
+            list-style: none;
+            li {
+                display: inline-block;
+                margin: 10px;
+                a {
+                    color: white;
+                    padding: 10px;
+                }
+            }
+        }
+    }
+
+    
 }
