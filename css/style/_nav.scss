@@ -1,15 +1,18 @@
 nav {
+
     background-color: #00000a;
     display: flex;
     justify-content: space-between;
     position: fixed;
     top: 0;
     z-index: 1;
+
     .logo {
         font-family: $oxygen;
         color: white;
         font-size: 5vw;
     }
+
     .ham {
         display: grid;
         place-content: center;
@@ -54,5 +57,10 @@ nav {
         }
     }
 
-    
+}
+
+@media(max-width: 767px) {
+    nav {
+        border-bottom: 1px solid #cdcdcd;
+    }
 }
