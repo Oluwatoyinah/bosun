@@ -5,6 +5,7 @@
   color: white;
   padding: 20px 0;
 }
+
 .about .bosun {
   width: 90%;
   margin: auto 5%;
@@ -12,6 +13,7 @@
   border-radius: 50%;
   border: 4px solid #2679db;
 }
+
 .about h1 {
   font-family: "Qwitcher Grypen", cursive;
   font-weight: 900;
@@ -27,28 +29,33 @@
     margin: auto 15%;
   }
 }
+
 .experience {
   min-height: 50vh;
   background-color: #00000a;
   color: white;
   padding: 20px 0 30px;
 }
+
 .experience h1 {
   font-family: "Qwitcher Grypen", cursive;
   font-weight: 900;
   font-size: 12vw;
   text-align: right;
 }
+
 .experience h5, .experience h6 {
   font-style: italic;
 }
+
 .experience .first {
   position: relative;
   background-color: rgba(48, 48, 68, 0.3);
   background-attachment: fixed;
 }
+
 .experience .first::after {
-  content: "";
+  content: '';
   position: absolute;
   background-color: white;
   width: 10px;
@@ -57,8 +64,9 @@
   top: -3%;
   left: -11px;
 }
+
 .experience .first::before {
-  content: "";
+  content: '';
   position: absolute;
   background-color: white;
   width: 10px;
@@ -67,11 +75,13 @@
   bottom: -3%;
   left: -11px;
 }
+
 .experience .work {
   position: relative;
 }
+
 .experience .work::after {
-  content: "";
+  content: '';
   position: absolute;
   background-color: white;
   width: 2px;
@@ -79,8 +89,9 @@
   top: -10%;
   left: -18px;
 }
+
 .experience .work::before {
-  content: "";
+  content: '';
   position: absolute;
   background-color: white;
   width: 7px;
@@ -95,20 +106,24 @@
   color: white;
   padding: 20px 0;
 }
+
 .education h1 {
   font-family: "Qwitcher Grypen", cursive;
   font-weight: 900;
   font-size: 12vw;
 }
+
 .education h5, .education h6 {
   font-style: italic;
 }
+
 .education .first {
   position: relative;
   background-color: rgba(48, 48, 68, 0.4);
 }
+
 .education .first::after {
-  content: "";
+  content: '';
   position: absolute;
   background-color: white;
   width: 10px;
@@ -117,8 +132,9 @@
   top: -10%;
   left: -11px;
 }
+
 .education .first::before {
-  content: "";
+  content: '';
   position: absolute;
   background-color: white;
   width: 10px;
@@ -127,11 +143,13 @@
   bottom: -10%;
   left: -11px;
 }
+
 .education .work {
   position: relative;
 }
+
 .education .work::after {
-  content: "";
+  content: '';
   position: absolute;
   background-color: white;
   width: 2px;
@@ -139,8 +157,9 @@
   top: -10%;
   left: -18px;
 }
+
 .education .work::before {
-  content: "";
+  content: '';
   position: absolute;
   background-color: white;
   width: 7px;
@@ -155,20 +174,17 @@
   color: white;
   padding: 20px 0;
 }
+
 .tools h1 {
   font-family: "Qwitcher Grypen", cursive;
   font-weight: 900;
   font-size: 12vw;
   text-align: right;
 }
-.tools .tool-icon {
-  font-size: 6vw;
-  color: #cdcccf;
-  margin: 30px;
-}
 
-[class^=devicon-], [class*=" devicon-"] {
-  line-height: normal;
+.tools .tech img {
+  width: 50%;
+  margin: 25%;
 }
 
 @media (max-width: 767px) {
@@ -187,21 +203,29 @@
     margin: 20px;
   }
 }
+
 .project {
   min-height: 50vh;
   background-color: #00000a;
   color: white;
   padding: 20px 0;
 }
+
 .project h1 {
   font-family: "Qwitcher Grypen", cursive;
   font-weight: 900;
   font-size: 12vw;
 }
+
+.project .projects-list .box:nth-of-type(2) {
+  text-align: right;
+}
+
 .project .projects-list .box {
   border-top: 3px solid white;
   color: #cdcdcd;
 }
+
 .project .projects-list .box a {
   text-decoration: none;
   font-family: "Anton", sans-serif;
@@ -223,22 +247,22 @@
     margin-left: 3px;
     font-size: 20px;
   }
-  .projects-list .box:nth-of-type(2) {
-    text-align: right;
-  }
 }
+
 .contact {
   min-height: 50vh;
   background-color: #00000a;
   color: white;
   padding: 20px 0;
 }
+
 .contact h1 {
   font-family: "Qwitcher Grypen", cursive;
   font-weight: 900;
   font-size: 12vw;
   text-align: right;
 }
+
 .contact input[type=text], .contact input[type=email], .contact textarea {
   font-size: 13px;
   padding: 10px;
@@ -246,6 +270,7 @@
   color: #FFF;
   background-color: transparent;
 }
+
 .contact .btn-contact {
   padding: 8px 30px;
   background-color: white;
@@ -254,15 +279,18 @@
 
 header {
   min-height: 100vh;
+  display: -ms-grid;
   display: grid;
   place-content: center;
   background-color: #00000a;
   color: #cdcdcd;
   font-family: "Oxygen", sans-serif;
 }
+
 header h1 {
   font-size: 9vw;
 }
+
 header .tx-blue {
   color: #2679d5;
 }
@@ -271,57 +299,74 @@ footer {
   background-color: #00000a;
   color: white;
 }
+
 footer a {
   color: white;
 }
 
 nav {
   background-color: #00000a;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   position: fixed;
   top: 0;
   z-index: 1;
 }
+
 nav .logo {
   font-family: "Oxygen", sans-serif;
   color: white;
   font-size: 5vw;
 }
+
 nav .ham {
+  display: -ms-grid;
   display: grid;
   place-content: center;
 }
+
 nav .ham .one {
   width: 40px;
   height: 2px;
   background: #fff;
   display: block;
   margin-bottom: 6px;
-  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
 }
+
 nav .ham .two {
   width: 40px;
   height: 2px;
   background-color: #fff;
   display: block;
   margin-bottom: 6px;
-  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
 }
+
 nav .ham .three {
   width: 40px;
   height: 2px;
   background-color: #fff;
   display: block;
-  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
 }
+
 nav .main-nav ul {
   list-style: none;
 }
+
 nav .main-nav ul li {
   display: inline-block;
   margin: 10px;
 }
+
 nav .main-nav ul li a {
   color: white;
   padding: 10px;
@@ -332,36 +377,47 @@ nav .main-nav ul li a {
     border-bottom: 1px solid #cdcdcd;
   }
 }
+
 body {
   font-family: "Oxygen", sans-serif;
   position: relative;
   scroll-behavior: smooth;
 }
+
 body .side-nav.front {
-  transform: translateX(0);
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
 }
+
 body .side-nav {
   position: fixed;
   inset: 0;
   height: 100vh;
   width: 100%;
   background-color: rgba(42, 42, 51, 0.9);
+  display: -ms-grid;
   display: grid;
   place-content: center;
   z-index: 2;
-  transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  transition: -webkit-transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
 }
+
 body .side-nav .close {
   position: absolute;
-  top: 1%;
-  right: 10%;
+  top: 0;
+  right: 7%;
   font-size: 50px;
   text-decoration: none;
 }
+
 body .side-nav a {
   display: block;
-  font-size: 50px;
+  font-size: 40px;
   color: white;
 }
 
@@ -379,6 +435,7 @@ section {
   color: #cdcdcd;
   background-color: #00000a;
   padding: 10px 5px;
+  display: -ms-grid;
   display: grid;
   place-content: center;
   min-height: 10vh;
@@ -387,4 +444,5 @@ section {
 
 .btn {
   padding: 5px 10px;
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */

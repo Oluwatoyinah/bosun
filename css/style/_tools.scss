@@ -9,16 +9,15 @@
         font-size: 12vw;
         text-align: right;
     }
-    .tool-icon {
-        font-size: 6vw;
-        color: #cdcccf;
-        margin: 30px;
+    .tech {
+        img {
+            width: 50%;
+            margin: 25%;
+        }
     }
 }
 
-[class^=devicon-], [class*=" devicon-"] {
-    line-height: normal;
-}
+
 
 @media (max-width: 767px) {
     .tools {

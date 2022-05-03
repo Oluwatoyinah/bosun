@@ -33,14 +33,14 @@ body {
         transition: transform 0.5s ease-in-out;
         .close {
             position: absolute;
-            top: 1%;
-            right: 10%;
+            top: 0;
+            right: 7%;
             font-size: 50px;
             text-decoration: none;
         }
         a {
             display: block;
-            font-size: 50px;
+            font-size: 40px;
             color: white;
         }
     }

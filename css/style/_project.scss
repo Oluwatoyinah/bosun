@@ -11,6 +11,9 @@
         font-size: 12vw;
     }
     .projects-list {
+        .box:nth-of-type(2) {
+            text-align: right;
+        }
         .box {
             border-top: 3px solid white;
             color: #cdcdcd;
@@ -48,8 +51,6 @@
                 }
             }
         }
-        .box:nth-of-type(2) {
-            text-align: right;
-        }
+        
     }
 }
