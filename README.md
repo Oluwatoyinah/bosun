@@ -1,1 +1,2 @@
-# A portfolio page for a software developer. 
+# A portfolio page for a senior software developer.
+
