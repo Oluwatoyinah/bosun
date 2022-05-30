@@ -1,2 +1,3 @@
-# A portfolio page for a senior software developer
+# Portfolio Website
+A portfolio website for a senior software developer
 
